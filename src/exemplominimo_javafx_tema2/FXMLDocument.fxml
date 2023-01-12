@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="319.0" prefWidth="424.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="exemplominimo_javafx_tema2.FXMLDocumentController">
+    <children>
+      <CheckBox fx:id="chk_bovino" layoutX="27.0" layoutY="45.0" mnemonicParsing="false" onAction="#carneBovina" text="Bovina" />
+      <CheckBox fx:id="chk_frango" layoutX="27.0" layoutY="69.0" mnemonicParsing="false" onAction="#carneFrango" text="Frango" />
+      <Label layoutX="27.0" layoutY="22.0" text="Carne" />
+      <CheckBox fx:id="chk_australiano" layoutX="139.0" layoutY="45.0" mnemonicParsing="false" onAction="#paoAustraliano" text="Pão Australiano" />
+      <CheckBox fx:id="chk_graos" layoutX="139.0" layoutY="67.0" mnemonicParsing="false" onAction="#paoGraos" text="7 Grãos" />
+      <Label layoutX="139.0" layoutY="23.0" text="Pão" />
+      <CheckBox fx:id="chk_mussarela" layoutX="263.0" layoutY="45.0" mnemonicParsing="false" onAction="#QueijoMussarela" text="Mussarela" />
+      <CheckBox fx:id="chk_cheedar" layoutX="263.0" layoutY="67.0" mnemonicParsing="false" onAction="#QueijoCheedar" text="Cheedar" />
+      <Label layoutX="263.0" layoutY="23.0" text="Queijo" />
+      <Button fx:id="btn_hamburguer" layoutX="28.0" layoutY="179.0" mnemonicParsing="false" onAction="#Montar" text="Montar" />
+      <Label fx:id="lbl_resultado" layoutX="282.0" layoutY="160.0" />
+    </children>
+</AnchorPane>
